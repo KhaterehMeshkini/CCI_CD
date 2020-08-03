@@ -29,7 +29,6 @@ Classes:
 def manager(tile, **kwargs):
     #SETUP DEFAULT OPTIONS 
     info = kwargs.get('info', True)
-    years = kwargs.get('years', None)
     outpath = kwargs.get('outpath', None)
     savepath = fm.check_folder(outpath, tile, 'LCTraining_DTW')
 
