@@ -12,7 +12,7 @@ from libs.RSdatamanager import filemanager as fm
 def main(datapath, **kwargs):
 
     from libs.RSdatamanager.Sentinel2.S2L2A import L2Atile, getTileList    
-    from libs.ToolboxModules import featurema as m1
+    from libs.ToolboxModules import featurext as m1
     from libs.ToolboxModules import featurets as m2
     from libs.ToolboxModules import trendanalysis as m3
     from libs.ToolboxModules import LandCoverTraining as m4 
